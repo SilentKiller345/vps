@@ -21,11 +21,11 @@ jobs:
       env:
         LINUX_USER_PASSWORD: root
         NGROK_AUTH_TOKEN: 2TnCPH653vAeAgcV1gEdpwIvKpv_6uBdMQPEG4NnQ5eFnWawh
-        CHROME_HEADLESS_CODE: ${{ secrets.CHROME_HEADLESS_CODE }}
+        CHROME_HEADLESS_CODE: 60
         LINUX_MACHINE_NAME: linux
         LINUX_USERNAME: user
-        GIT_NAME: ${{ secrets.GIT_NAME }}
-        GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
+        GIT_NAME: SilentKiller345
+        GIT_EMAIL: vanshkumar996k@gmail.com
         
     - name: Configurar github.
     # if ${{ failure() }}
