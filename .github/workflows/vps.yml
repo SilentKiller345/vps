@@ -19,13 +19,13 @@ jobs:
     #  if: ${{ failure() }}
       run: bash linux-ssh.sh
       env:
-        LINUX_USER_PASSWORD: root
-        NGROK_AUTH_TOKEN: 2TnCPH653vAeAgcV1gEdpwIvKpv_6uBdMQPEG4NnQ5eFnWawh
-        CHROME_HEADLESS_CODE: 60
-        LINUX_MACHINE_NAME: linux
-        LINUX_USERNAME: user
-        GIT_NAME: SilentKiller345
-        GIT_EMAIL: vanshkumar996k@gmail.com
+        LINUX_USER_PASSWORD: 
+        NGROK_AUTH_TOKEN: 
+        CHROME_HEADLESS_CODE: 
+        LINUX_MACHINE_NAME: 
+        LINUX_USERNAME: 
+        GIT_NAME: 
+        GIT_EMAIL: 
         
     - name: Configurar github.
     # if ${{ failure() }}
